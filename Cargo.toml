@@ -1,0 +1,10 @@
+[package]
+name = "counter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.3"
+chrono = "0.4.40"
+tokio = { version = "1.44.1", features = ["full"] }
+twitch-irc = "5.0.1"
